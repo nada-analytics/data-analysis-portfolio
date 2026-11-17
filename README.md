@@ -3,7 +3,13 @@
  1. Objective:
 To clean, prepare, and analyze the Superstore Sales dataset in order to answer key business questions regarding sales performance, profit margins, and regional trends.
 
- 2. Dataset:
+<img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/2c7413e3-88b1-4e0c-906b-f3a8cdc13f0e" />
+<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/3da0ff5b-6dc1-4bc5-a2fb-d72c9d29e512" />
+<img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/0945724f-3a1c-495b-85e7-f8ecdc2ee156" />
+
+
+
+ 3. Dataset:
 - Source: Superstore Sales dataset (Excel format).
 - Structure: Contains multiple rows and columns including Order Date, Product Name, Category, Sales, Profit, Quantity, and Region.
 
