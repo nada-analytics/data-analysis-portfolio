@@ -35,9 +35,9 @@ To clean, prepare, and analyze the Superstore Sales dataset in order to answer k
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/3da0ff5b-6dc1-4bc5-a2fb-d72c9d29e512" />
 <img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/0945724f-3a1c-495b-85e7-f8ecdc2ee156" />
 6. Power BI Data Preparation (Day 4):
-- Imported the cleaned Excel dataset into Power BI Desktop and opened Power Query Editor via Transform Data.
-- Verified all column data types (Text, Date, Number) and inspected column headers.
-- Removed a corrupted column whose header contained unreadable symbols/characters.
-- Dropped additional unneeded columns to keep only relevant fields for dashboard analysis.
-- Applied all transformations using Close & Apply.
+Imported the cleaned Excel dataset into Power BI Desktop and opened Power Query Editor via Transform Data.
+Verified all column data types (Text, Date, Number) and inspected column headers.
+Removed a corrupted column whose header contained unreadable symbols/characters.
+Dropped additional unneeded columns to keep only relevant fields for dashboard analysis.
+ Applied all transformations using Close & Apply.
   <img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/ca72eaba-a843-4cd1-830d-46e64e1af715" />
