@@ -41,3 +41,23 @@ Removed a corrupted column whose header contained unreadable symbols/characters.
 Dropped additional unneeded columns to keep only relevant fields for dashboard analysis.
  Applied all transformations using Close & Apply.
   <img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/ca72eaba-a843-4cd1-830d-46e64e1af715" />
+
+7. Power BI Measures & Visuals 
+
+Measures Table:
+| Measure Name | DAX Formula | Meaning (In My Own Words) |
+| :--- | :--- | :--- |
+| **Total Sales** | `Total Sales = SUM('Cleaning Log'[Sales])` | Calculates total sales across the dataset and updates dynamically based on selected filters. |
+| **Total Profit** | `Total Profit = SUM('Cleaning Log'[Profit])` | Calculates total profit to show overall profitability compared to sales. |
+| **Profit Margin** | `Profit Margin = DIVIDE([Total Profit], [Total Sales])` | Shows profit percentage of total sales while safely avoiding division-by-zero errors. |
+| **Orders Count** | `Orders Count = DISTINCTCOUNT('Cleaning Log'[Order.ID])` | Counts unique orders so multiple items in the same order are not double-counted. |
+
+Visuals Table:
+| Visual / Element | Fields & Measure Used | Meaning (In My Own Words) |
+| :--- | :--- | :--- |
+| **4 KPI Cards** | `Total Sales`, `Total Profit`, `Profit Margin`, `Orders Count` | Displays key summary numbers at a glance at the top/side of the report. |
+| **Column Chart (Sales by Category)** | `Category` (X-axis) & `Total Sales` (Y-axis) | Compares total sales across product categories to show which category generates the most revenue. |
+| **Line Chart (Sales by Month)** | `Order.Date` - Month (X-axis) & `Total Sales` (Y-axis) | Tracks how sales rise and fall across months over time. |
+| **Bar Chart (Top 10 Products)** | `Product.Name` (Y-axis), `Total Sales` (X-axis), Top 10 filter | Highlights the top 10 highest-selling products for quick identification. |
+| **Donut Chart / Map (Sales by Region)** | `Region` & `Total Sales` | Shows how sales are distributed across different regions. |
+<img width="1366" height="768" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/9eebebdb-1b6c-4a37-a053-1c3c11fc17d0" />
