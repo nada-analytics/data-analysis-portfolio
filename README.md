@@ -61,3 +61,31 @@ Visuals Table:
 | **Bar Chart (Top 10 Products)** | `Product.Name` (Y-axis), `Total Sales` (X-axis), Top 10 filter | Highlights the top 10 highest-selling products for quick identification. |
 | **Donut Chart / Map (Sales by Region)** | `Region` & `Total Sales` | Shows how sales are distributed across different regions. |
 <img width="1366" height="768" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/9eebebdb-1b6c-4a37-a053-1c3c11fc17d0" />
+
+
+8. Insights & Recommendations
+
+- Geographic Performance:
+  Insight: Sales and orders are higher in certain regions than others showing uneven regional demand.
+  Recommendation: Focus marketing and promotions on lower performing regions while keeping stock ready in high demand areas.
+
+ •Category Profitability:
+  Insight: Some categories bring high sales while others have lower profit margins or smaller order counts.
+  Recommendation: Review discounts on low margin items and promote products that give healthier profit.
+
+•Monthly Sales Trend:
+  Insight: Sales go up and down across months with noticeable peaks in specific months of the year.
+  Recommendation: Plan inventory and delivery capacity ahead of peak months and run offers during quieter months.
+
+•Top 10 Products:
+  Insight: A small group of top products makes up a clear share of overall sales.
+  Recommendation: Keep top selling products well-stocked and highlight them to customers.
+
+9. Excel vs. Power BI Comparison:
+
+Both Excel and Power BI helped me analyze this dataset, but each one is better for different tasks:
+- Difference: Excel is great for quick data cleaning cell formulas  and Pivot Tables while Power BI connects data preparation in Power Query with DAX, measures, slicers, cross-filtering visuals, and multi-page reports.
+- Which felt easier: Excel felt easier at the beginning for fast manual checks and simple tables while Power BI felt easier and faster for building an interactive dashboard and filtering results visually across charts.
+
+ <img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/1fe304d3-5029-46e8-8eb4-7a5c57022b1e" />
+<img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/d4bd879b-1f58-47ae-8537-da34f9eccf97" />
